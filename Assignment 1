@@ -1,0 +1,254 @@
+                                                              ASSIGNMENT – 1
+                                                               
+                                                             Machine Learning     
+                                                              
+                       Q1 to Q12 have only one correct answer. Choose the correct option to answer your question.     
+                       
+1. What is the most appropriate no. of clusters for the data points represented by the following 
+dendrogram:
+
+b) 4 
+................................................................................................................
+2. In which of the following cases will K-Means clustering fail to give good results?
+1. Data points with outliers
+2. Data points with different densities
+3. Data points with round shapes
+4. Data points with non-convex shapes
+
+d) 1, 2 and 4
+.................................................................................................................
+3. The most important part of__________ is selecting the variables on which clustering is based.
+
+d) formulating the clustering problem                                              
+.................................................................................................................
+4. The most commonly used measure of similarity is the________ or its square.
+
+a) Euclidean distance
+.................................................................................................................
+5. ______ is a clustering procedure where all objects start out in one giant cluster. Clusters are formed by 
+dividing this cluster into smaller and smaller clusters.
+
+
+b) Divisive clustering
+..................................................................................................................
+6. Which of the following is required by K-means clustering?
+
+d) All answers are correct
+...................................................................................................................
+7. The goal of clustering is to ______
+
+a) Divide the data points into groups
+....................................................................................................................
+8. Clustering is a ______
+
+b) Unsupervised learning
+.....................................................................................................................
+9. Which of the following clustering algorithms suffers from the problem of convergence at local 
+optima?
+
+d) All of the above
+.....................................................................................................................
+10. Which version of the clustering algorithm is most sensitive to outliers?
+
+a) K-means clustering algorithm
+.....................................................................................................................
+11. Which of the following is a bad characteristic of a dataset for clustering analysis
+
+d) All of the above
+.....................................................................................................................
+12. For clustering, we do not require
+
+a) Labeled data
+.....................................................................................................................
+13. How is cluster analysis calculated?
+
+The hierarchical cluster analysis follows three basic steps: 1) calculate the distances, 2) link the clusters, and 3) choose a solution by selecting the right number of clusters.
+Dendrogram will graphically show how the clusters are merged and allows us to identify what the appropriate number of clusters is.
+......................................................................................................................
+14. How is cluster quality measured?
+
+The Silhouette Index measure the distance between each data point, the centroid of the cluster it was assigned to and the closest centroid belonging to another cluster. ... For instance, the silhouette index is normalized and a value close to 1 is always good (for this index) whatever clustering you are trying to evaluate.
+
+To measure a cluster's fitness within a clustering, we can compute the average silhouette coefficient value of all objects in the cluster. To measure the quality of a clustering, we can use the average silhouette coefficient value of all objects in the data set.
+.....................................................................................................................
+15. What is cluster analysis and its types?
+
+Clustering is a type of unsupervised learning method of machine learning. In the unsupervised learning method, the inferences are drawn from the data sets which do not contain labelled output variable. It is an exploratory data analysis technique that allows us to analyze the multivariate data sets.
+
+Clustering itself can be categorized into two types viz. Hard Clustering and Soft Clustering. In hard clustering, one data point can belong to one cluster only. But in soft clustering, the output provided is a probability likelihood of a data point belonging to each of the pre-defined numbers of clusters.
+
+There are different types of clustering:-
+1.Density-Based Clustering
+2.DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+3.OPTICS (Ordering Points to Identify Clustering Structure)
+4.HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise)
+5.Hierarchical Clustering
+6.Fuzzy Clustering
+7.Partitioning Clustering : K-Means Clustering ,etc.,
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                                                           SQL Assigment    
+                                                           
+                                                           
+1. Which of the following is/are DDL commands in SQL?
+A) Create D) ALTER 
+
+2. Which of the following is/are DML commands in SQL?
+A) Update B) Delete C) Select 
+
+3. Full form of SQL is:
+B) Structured Query Language
+
+4. Full form of DDL is:
+B) Data Definition Language
+                              
+5. DML is:
+A) Data Manipulation Language 
+
+6. Which of the following statements can be used to create a table with column B int type and C floattype?
+C) Create Table A (B int,C float) 
+
+7. Which of the following statements can be used to add a column D (float type) to the table A created
+above?
+B) Alter Table A ADD COLUMN D float
+
+8. Which of the following statements can be used to drop the column added in the above question?
+B) Alter Table A Drop Column D
+
+9. Which of the following statements can be used to change the data type (from float to int ) of the column 
+Dof table A created in above questions?
+B) Alter Table A Alter Column D int
+
+10. Suppose we want to make Column B of Table A as primary key of the table. By which of the following 
+statements we can do it?
+A) Alter Table A Add Constraint Primary Key B 
+...................................................................................................................................
+11. What is data-warehouse?
+A Data Warehousing (DW) is process for collecting and managing data from varied sources to provide meaningful business insights. A Data warehouse is typically used to connect and analyze business data from heterogeneous sources. The data warehouse is the core of the BI system which is built for data analysis and reporting.
+......................................................................................................................................
+12. What is the difference between OLTP VS OLAP?
+
+Online Analytical Processing (OLAP) –
+Online Analytical Processing consists of a type of software tools that are used for data analysis for business decisions. OLAP provides an environment to get insights from the database retrieved from multiple database systems at one time.
+
+Examples – Any type of Data warehouse system is an OLAP system. Uses of OLAP are as follows:
+Spotify analyzed songs by users to come up with the personalized homepage of their songs and playlist.
+Netflix movie recommendation system.
+
+Online transaction processing (OLTP) –
+Online transaction processing provides transaction-oriented applications in a 3-tier architecture. OLTP administers day to day transaction of an organization.
+
+Examples – Uses of OLTP are as follows:
+
+ATM center is an OLTP application.
+OLTP handles the ACID properties during data transaction via the application.
+It’s also used for Online banking, Online airline ticket booking, sending a text message, add a book to the shopping cart.
+......................................................................................................................................
+13. What are the various characteristics of data-warehouse?
+
+Data warehouse can be controlled when the user has a shared way of explaining the trends that are introduced as specific subject. Below are major characteristics of data warehouse:
+
+1.Subject-oriented :
+A data warehouse is always a subject oriented as it delivers information about a theme instead of organization’s current operations. It can be achieved on specific theme. That means the data warehousing process is proposed to handle with a specific theme which is more defined. These themes can be sales, distributions, marketing etc.
+
+2.Integrated :
+It is somewhere same as subject orientation which is made in a reliable format. Integration means founding a shared entity to scale the all similar data from the different databases. The data also required to be resided into various data warehouse in shared and generally granted manner.
+
+3.Time-Variant :
+In this data is maintained via different intervals of time such as weekly, monthly, or annually etc. It founds various time limit which are structured between the large datasets and are held in online transaction process (OLTP). The time limits for data warehouse is wide-ranged than that of operational systems. 
+
+4.Non-Volatile :
+As the name defines the data resided in data warehouse is permanent. It also means that data is not erased or deleted when new data is inserted. It includes the mammoth quantity of data that is inserted into modification between the selected quantity on logical business. It evaluates the analysis within the technologies of warehouse.
+.......................................................................................................................................
+14. What is Star-Schema??
+
+Star schema is the fundamental schema among the data mart schema and it is simplest. This schema is widely used to develop or build a data warehouse and dimensional data marts. It includes one or more fact tables indexing any number of dimensional tables. The star schema is a necessary case of the snowflake schema. It is also efficient for handling basic queries.
+........................................................................................................................................
+15. What do you mean by SETL?
+
+SETL stands for Set Theory as a Language.SETL is a high-level programming language that’s based on the mathematical theory of sets. It was developed in the early 1970’s by mathematician Professor J. Schwartz. SETL is an interpreted language with a syntax that is resembles C and in many cases similar to Perl. In SETL every statement is terminated by a semicolon. Variable names are case-insensitive and are automatically determined by their last assignment.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                                                     STATISTICS WORKSHEET-1
+                                                     
+1. Bernoulli random variables take (only) the values 1 and 0.
+a) True
+
+2. Which of the following theorem states that the distribution of averages of iid variables, properly 
+normalized, becomes that of a standard normal as the sample size increases?
+a) Central Limit Theorem
+
+3. Which of the following is incorrect with respect to use of Poisson distribution?
+d) All of the mentioned
+              
+4. Point out the correct statement.
+a) The exponent of a normally distributed random variables follows what is called the log- normal 
+distribution
+
+5. ______ random variables are used to model rates.
+c) Poisson
+
+6. Usually replacing the standard error by its estimated value does change the CLT.
+b) False
+
+7. Which of the following testing is concerned with making decisions using data?
+b) Hypothesis
+
+8. Normalized data are centered at______and have units equal to standard deviations of the 
+original data.
+a) 0
+
+9. Which of the following statement is incorrect with respect to outliers?
+d) None of the mentioned
+
+10. What do you understand by the term Normal Distribution?
+
+Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve.
+
+11. How do you handle missing data? What imputation techniques do you recommend?
+
+There are several ways to handle the missing values from the data
+Few Example's are :
+1.Deleting Rows with missing values.
+2.Impute missing values for continuous variable.
+3.Impute missing values for categorical variable.
+4.Regression Imputation.
+5.Using Algorithms that support missing values.
+6.Prediction of missing values.
+
+Regression Imputation technique is best as it fits a statistical model on a variable with missing values. Predictions of this regression model are used to substitute the missing values in this variable.
+
+12. What is A/B testing?
+
+A/B testing is the process of comparing two variations of a page element, usually by testing users' response to variant A vs. variant B and concluding which of the two variants is more effective.
+
+13. Is mean imputation of missing data acceptable practice?
+
+No,It is a Bad practice in general
+If just estimating means: mean imputation preserves the mean of the observed data
+Leads to an underestimate of the standard deviation
+Distorts relationships between variables by “pulling” estimates of the correlation toward zero
+
+14. What is linear regression in statistics?
+
+Linear regression is a basic and commonly used type of predictive analysis.  The overall idea of regression is to examine two things: (1) does a set of predictor variables do a good job in predicting an outcome (dependent) variable?  (2) Which variables in particular are significant predictors of the outcome variable, and in what way do they–indicated by the magnitude and sign of the beta estimates–impact the outcome variable?  These regression estimates are used to explain the relationship between one dependent variable and one or more independent variables.
+
+15. What are the various branches of statistics?
+
+The two main branches of statistics are descriptive statistics and inferential statistics. Both of these are employed in scientific analysis of data and both are equally important for the student of statistics.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
